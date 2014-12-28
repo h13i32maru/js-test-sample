@@ -1,0 +1,11 @@
+{
+  "name": "js-test",
+  "version": "0.0.0",
+  "authors": [
+    "h13i32maru"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "power-assert": ""
+  }
+}

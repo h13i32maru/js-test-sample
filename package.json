@@ -1,12 +1,12 @@
 {
-  "name": "js-test",
+  "name": "js-test-sample",
   "version": "1.0.0",
   "description": "javascript unit test sample project",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
-    "test": "bash ./script/test.sh"
+    "build": "bash ./script/build.sh",
+    "test_browser": "bash ./script/test_browser.sh",
+    "test_karma": "bash ./script/test_karma.sh",
+    "test": "bash ./script/test_karma.sh"
   },
   "license": "MIT",
   "dependencies": {

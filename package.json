@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "javascript unit test sample project",
   "scripts": {
-    "build": "bash ./script/build.sh"
+    "build": "bash ./script/build.sh",
+    "test_browser": "bash ./script/test_browser.sh"
   },
   "license": "MIT",
   "dependencies": {
-    "traceur": ""
+    "traceur": "",
+    "mocha": "",
+    "espower-cli": ""
   }
 }

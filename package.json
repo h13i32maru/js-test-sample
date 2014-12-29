@@ -4,12 +4,17 @@
   "description": "javascript unit test sample project",
   "scripts": {
     "build": "bash ./script/build.sh",
-    "test_browser": "bash ./script/test_browser.sh"
+    "test_browser": "bash ./script/test_browser.sh",
+    "test": "bash ./script/test_karma.sh"
   },
   "license": "MIT",
   "dependencies": {
     "traceur": "",
     "mocha": "",
-    "espower-cli": ""
+    "espower-cli": "",
+    "karma": "",
+    "karma-mocha": "",
+    "karma-chrome-launcher": "",
+    "karma-cli": ""
   }
 }
